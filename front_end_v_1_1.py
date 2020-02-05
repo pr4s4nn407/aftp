@@ -58,7 +58,7 @@ while(True):
         if(instructions[4] in instruction): # -p
             parts = 300
             parts = instruction[instruction.index(instruction[4])]
-            print("number of parts is ", parts)
+            print("number of parts is ", parts) # inga print aaga maatengidhu daaaaaaaaaa
             print("--> ", instruction[instruction.index(instruction[4])])
             print(instruction)
         # print("This is the demo version, only the CLI is available for usage. Other functions will be added in later versions.")
